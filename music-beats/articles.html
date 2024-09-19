@@ -3,6 +3,7 @@
 <head>
 <title>Music Beats | Articles</title>
 <meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
@@ -33,7 +34,7 @@
           <li class="m2"><a href="about-us.html"><span>about</span></a></li>
           <li class="m3"><a href="articles.html" class="active"><span>articles</span></a></li>
           <li class="m4"><a href="contact-us.html"><span>contacts</span></a></li>
-          <li class="m5 last"><a href="sitemap.html"><span>sitemap</span></a></li>
+          <!-- <li class="m5 last"><a href="sitemap.html"><span>sitemap</span></a></li> -->
         </ul>
       </nav>
     </div>
@@ -52,7 +53,42 @@
     <section id="content">
       <h2>Articles</h2>
       <ul class="list1">
-        <li><img src="images/3page-img1.jpg"><strong><a href="article.html">Article 1</a></strong>Eusus consequam vitae habitur amet nullam vitae condis phasellus sed justo. Orcivel mollis intesque eu sempor ridictum a non.</li>
+        <!-- <li><img class="img-song1" src="images/image_123650291 (2).JPG"><strong><a href="article.html">Article 1</a></strong>Eusus consequam vitae habitur amet nullam vitae condis phasellus sed justo. Orcivel mollis intesque eu sempor ridictum a non.</li> -->
+ <!-- Content -->
+<div class="container d-flex justify-content-center my-4 mb-5">
+
+  <div id="mobile-box">
+
+    <!-- Card -->
+    <div class="card">
+      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+        <img class="card-img-top" src="images/image_123650291 (2).JPG"
+          alt="Card image cap">
+        <a href="#!">
+          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
+      </div>
+      <div class="card-body text-center">
+
+        <h5 class="h5 font-weight-bold"><a href="#" target="_blank">Dj Flam</a></h5>
+        <p class="mb-0">Urban Bachata remix</p>
+
+        <audio id="music" preload="true">
+          <source src="images/wetransfer_she-dont-know-master-1-wav_2024-07-19_0400 (1)/She Dont Know Master 1 .wav">
+        </audio>
+        <div id="audioplayer">
+          <i id="pButton" class="fas fa-play"></i>
+          <div id="timeline">
+            <div id="playhead"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Card -->
+  </div>
+</div>
+<!-- Content -->
         <li><img src="images/3page-img2.jpg"><strong><a href="#">Article 2</a></strong>Eusus consequam vitae habitur amet nullam vitae condis phasellus sed justo. Orcivel mollis intesque eu sempor ridictum a non.</li>
         <li><img src="images/3page-img3.jpg"><strong><a href="#">Article 3</a></strong>Eusus consequam vitae habitur amet nullam vitae condis phasellus sed justo. Orcivel mollis intesque eu sempor ridictum a non.</li>
         <li><img src="images/3page-img4.jpg"><strong><a href="#">Article 4</a></strong>Eusus consequam vitae habitur amet nullam vitae condis phasellus sed justo. Orcivel mollis intesque eu sempor ridictum a non.</li>
@@ -71,6 +107,7 @@
     </div>
   </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script type="text/javascript"> Cufon.now(); </script>
 <!-- END PAGE SOURCE -->
 </body>
